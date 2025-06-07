@@ -27,7 +27,7 @@ Explore the archives by picking any date—revisit the universe’s past wonders
 ## 💡 How to Run Locally
 1️⃣ **Clone the repository:**
 ```bash
-git clone https://github.com/shamak24/apod.git
+git clone https://github.com/shamak24/APOD.git
 cd client
 npm install
 npm run dev
