@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+:root {
+    --primary-color: #1f2833;
+    --secondary-color: #66fcf1;
+    --accent-color: #45a29e;
+    --text-color: #c5c6c7;
+    --background-color: #0b0c10;
+}
+
+body {
+  background-color: #0b0c10;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+    color: #66fcf1;
+    font-weight: 700; /* Bold for APOD */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adjust for a futuristic feel */
+}
+
+a, .nav-link {
+  color: #66fcf1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, .nav-link:hover {
+  color: #45a29e;
+}
